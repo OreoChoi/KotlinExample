@@ -1,15 +1,15 @@
 package BasicExample
 
 /**
- * Null을 선언하는 예제
+ * 1. Null을 선언하는 예제
  * */
 fun nullExample(){
     val a:Int? = null // '?'를 대입하면 null도 대입할수있다.
-    val b:Int = null // '?'가 없기에 에러가 표시된다.
+    //val b:Int = null // '?'가 없기에 에러가 표시된다.
 }
 
 /**
- * Null 값을 리턴하는 예제
+ * 2. Null 값을 리턴하는 예제
  *  - Null값이 포함되는 변수에는 '?'를 표시해야합니다.
  * */
 fun nullReturnExample(isEnable: Boolean): Int? {
@@ -25,7 +25,7 @@ fun nullReturnExample(isEnable: Boolean): Int? {
 }
 
 /**
- * Null 값을 체크하는 예제
+ * 3. Null 값을 체크하는 예제
  * */
 fun nullCheckExample(a: Int?): Boolean {
     val b: Int
