@@ -52,7 +52,7 @@ fun varExample() {
  * 6. 주석
  *   - 실제 프로그램에 사용되는 문구는 아니지만 프로그램의 해석을 돕는
  * */
-fun comment(){
+fun comment() {
     // 줄 주석 이라고 한다.
 
     /*
@@ -69,15 +69,48 @@ fun comment(){
  * 7. 문자열
  *    - 문자열 사용 방식
  * */
-fun toString(){
+fun toString() {
     val num = 10
     println("num = $num")   //num 변수를 이와 같이 출력 가능하다
 
-    val age:String = "Ten"
+    val age: String = "Ten"
     println("$age.lenght is ${age.length}") //임의의 식도 사용가능
 
-    val introduction:String = """안녕하세요 현재 사용하는 문자열은
+    val introduction: String = """
+        안녕하세요 현재 사용하는 문자열은
         개행 문자가 없더라도 자동으로 개행을 넣어서 표시가 가능합니다
-        ...."""
+        ....
+        """.trimMargin()
+
     println(introduction)
+}
+
+/**
+ * 8. 코틀린 기본 타입
+ * */
+fun kotlinType() {
+    //숫자형
+    val double: Double = 3.14
+    val float: Float = 3.14f
+    val long: Long = 100_000_000L
+    val int: Int = 100_000_000 //1.1 부터 구분자인 _를 지원한다.
+    val short: Short = 10
+    val byte: Byte = 10
+
+    //문자형
+    val char: Char = 'a'
+    val string: String = "hello world"
+
+    //불리언
+    val boolean: Boolean = true
+
+    //배열
+    val doubleArray: DoubleArray = doubleArrayOf(1.1, 2.2, 3.3)
+    val floatArray: FloatArray = floatArrayOf(1.1f, 2.2f, 3.3f)
+    val longArray: LongArray = longArrayOf()
+    val intArray: IntArray = intArrayOf(1, 2, 3)
+    val shortArray: ShortArray = shortArrayOf(1,2,3)
+    val byteArray: ByteArray = byteArrayOf(1,2,3)
+    val charArray: CharArray = charArrayOf('a', 'b', 'c')
+    val booleanArray :BooleanArray = booleanArrayOf(true,false,true)
 }
