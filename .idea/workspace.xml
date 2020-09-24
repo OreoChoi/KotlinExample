@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a9d960f1-2017-43ef-af47-5f0c427358bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopFun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinFIrstExample/META-INF/KotlinFIrstExample.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFIrstExample/META-INF/KotlinFIrstExample.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeCheckFun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeCheckExample.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +60,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/BasicExample" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/BasicExample" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/BasicExample" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ConstructorExampleKt">
+  <component name="RunManager" selected="Kotlin.TypeCheckExampleKt">
     <configuration name="ConstructorExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFIrstExample" />
       <option name="VM_PARAMETERS" />
@@ -110,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFIrstExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OperatorExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="KotlinFIrstExample" />
       <option name="VM_PARAMETERS" />
@@ -136,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeCheckExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFIrstExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TypeCheckExampleKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TypeCheckExampleKt" />
         <item itemvalue="Kotlin.ConstructorExampleKt" />
         <item itemvalue="Kotlin.OperatorExampleKt" />
         <item itemvalue="Kotlin.GetterSetterExampleKt" />
         <item itemvalue="Kotlin.InheritanceExampleKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +185,24 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1600931578608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600931578608" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1600931578608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600931578608" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1600931578608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600931578608" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1600931578608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600931578608" />
   </component>
   <component name="masterDetails">
     <states>
