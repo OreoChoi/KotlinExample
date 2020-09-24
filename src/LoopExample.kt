@@ -1,7 +1,7 @@
 /**
  * 1. for문으로 출력하는 예제
  * */
-fun forStringExample() {
+fun forExample() {
     val items = listOf("apple", "banana", "kiwi")
 
     for (item in items) { //리스트를 순차적으로 꺼내 출력함
@@ -12,7 +12,7 @@ fun forStringExample() {
 /**
  * 2. for문으로 출력하는 예제2
  * */
-fun forStringExample2() {
+fun forExample2() {
     val items = listOf("apple", "banana", "kiwi")
 
     for (index in items.indices) {
@@ -21,11 +21,10 @@ fun forStringExample2() {
     }
 }
 
-
 /**
  * 3. for문으로 출력하는 예제3
  * */
-fun forIntegerExample() {
+fun forExample3() {
     var items: ArrayList<Int> = ArrayList()
     items.add(1)
     items.add(2)
@@ -35,7 +34,6 @@ fun forIntegerExample() {
         println(item)
     }
 }
-
 
 /**
  * 4. WhileExample
