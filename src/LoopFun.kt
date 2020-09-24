@@ -1,5 +1,3 @@
-package BasicExample
-
 /**
  * 1. for문으로 출력하는 예제
  * */

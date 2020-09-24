@@ -1,5 +1,3 @@
-package BasicExample
-
 /**
  * 1. Null을 선언하는 예제
  * */

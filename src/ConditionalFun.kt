@@ -1,5 +1,3 @@
-package BasicExample
-
 /**
  * 1. If문 Example1 (조건식)
  * */

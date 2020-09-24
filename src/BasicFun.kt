@@ -1,6 +1,3 @@
-package BasicExample
-
-
 /**
  * 1. 기본적인 함수 정의
  * */
