@@ -15,20 +15,7 @@ fun ifExample(intA: Int, intB: Int): Int {
 fun ifExample2(intA: Int, intB: Int) = if (intA > intB) intA else intB
 
 /**
- * 3. If문 Example3
- *
- * - 아래 코드는 예제 이므로 실제 프로젝트에서 저렇게 길게 코드를 작성하면 안됩니다.
- * */
-fun ifExample3(x:Int){
-    var result:Boolean = if(x>100){
-        true
-    }else{
-        false
-    }
-}
-
-/**
- * 4. 범위 비교문 Example
+ * 3. 범위 비교문 Example
  * */
 fun rangeExample():Boolean{
     val x = 1
@@ -38,22 +25,20 @@ fun rangeExample():Boolean{
 }
 
 /**
- * 5. 범위 비교문 Example2
+ * 4. 범위 비교문 Example2
  * */
 fun rangeExample2(){
     val list = listOf("a","b","c")
 
-    if(-1 !in 0..list.lastIndex){   //리스트의 크기가 -1보다 큰경우
-        println("-1 is out of range")
-    }
-
-    if(list.size !in list.indices){ //리스트의 크기가 색인 가능한 인덱스 인지?
-        println("list size is out of valid list indices range too")
+    if(3 !in list.indices){ //리스트의 크기가 색인 가능한 인덱스 인지?
+        println("색인 불가")
+    }else{
+        println("색인 가능")
     }
 }
 
 /**
- * 6. When문 예제 1
+ * 5. When문 예제 1
  * */
 fun whenExample(): String {
     val any: String = "banana"
@@ -66,7 +51,7 @@ fun whenExample(): String {
 }
 
 /**
- * 7. When문 예제 2
+ * 6. When문 예제 2
  *   - 특정 식을 조건으로 넣을수도 있다.
  * */
 fun whenExample2(): String {
@@ -79,7 +64,7 @@ fun whenExample2(): String {
 }
 
 /**
- * 8. When문 예제 3
+ * 7. When문 예제 3
  *   - 범위 , 콜렉션을 사용해 검사할수있다.
  * */
 fun whenExample3():Unit {
@@ -95,7 +80,7 @@ fun whenExample3():Unit {
 }
 
 /**
- * 9. When문 예제 4 (식 몸체)
+ * 8. When문 예제 4 (식 몸체)
  * */
 fun whenExample4(x:Int) = when(x){
     in 1..10 -> "Good"
