@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9d960f1-2017-43ef-af47-5f0c427358bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinFIrstExample/META-INF/KotlinFIrstExample.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFIrstExample/META-INF/KotlinFIrstExample.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypeCheckFun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeCheckExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NullFun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/NullExample.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
