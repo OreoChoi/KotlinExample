@@ -1,4 +1,4 @@
- fun main(args:Array<String>){
-     rangeExample2();
- }
-
+fun main(args: Array<String>) {
+    var beverage = readLine()!!.capitalize()
+    println(beverage)
+}
